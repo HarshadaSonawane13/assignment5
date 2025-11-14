@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Event Registration</h2>
+
+    <form id="regForm">
+
+        <label>Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label>Email</label>
+        <input type="text" id="email" placeholder="Enter your email">
+
+        <label>Mobile Number</label>
+        <input type="text" id="mobile" placeholder="Enter 10-digit number">
+
+        <label>Event Name</label>
+        <input type="text" id="event" placeholder="Enter event name">
+
+        <button type="button" onclick="submitForm()">Register</button>
+
+        <p id="errorMsg"></p>
+        <p id="successMsg" style="color:green; font-weight:bold;"></p>
+
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
